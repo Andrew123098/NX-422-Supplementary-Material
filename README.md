@@ -6,12 +6,13 @@ This repository contains MATLAB files and associated resources for the computati
 
 - **`Project_Calculations.mlx`**: MATLAB live script for all calculations for material and electrical properties and analysis.
 - **`gold_tmp_vs_resistivity.mat`**: Data file containing the relationship between gold resistivity and temperature, used in interconnect design.
+- **`shannon_limit.ipynb**`: Jupyter notebook file used to produce Figure 5 in the report. Requires `seaborn`, `numpy` and `matplotlib`.
 
 ## Key Features
 
 - **Material Analysis:** Ensures all materials operate below their critical strain thresholds.
 - **Electrical Properties:** Includes analysis of gold interconnects' resistivity at physiological temperatures.
-- - **shannon_limit.ipynb**: Jupyter notebook file used to produce Figure 5 in the report. Requires `seaborn`, `numpy` and `matplotlib`.
+- **Shannon Limit** Makes sure that our device does not exceed the safety threshold for neurostimulation.
 
 ## How to Use
 
