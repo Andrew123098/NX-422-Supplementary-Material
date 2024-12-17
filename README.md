@@ -11,6 +11,7 @@ This repository contains MATLAB files and associated resources for the computati
 
 - **Material Analysis:** Ensures all materials operate below their critical strain thresholds.
 - **Electrical Properties:** Includes analysis of gold interconnects' resistivity at physiological temperatures.
+- - **shannon_limit.ipynb**: Jupyter notebook file used to produce Figure 5 in the report. Requires `seaborn`, `numpy` and `matplotlib`.
 
 ## How to Use
 
